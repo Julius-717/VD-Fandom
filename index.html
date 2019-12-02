@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -25,51 +26,57 @@
     <div class="tab">
         <!-- Div for tab links -->
         <button class="tablinks btn" onclick="openPage(event, 'welcome')">Welcome</button>
-        <button class="tablinks btn" onclick="openPage(event, 'summary')">about</button>
+        <!-- <button class="tablinks btn" onclick="openPage(event, 'about')">about</button> -->
         <button class="tablinks btn" onclick="openPage(event, 'actors')">Characters</button>
         <button class="tablinks btn" onclick="openPage(event, 'review')">Creatures</button>
         <button class="tablinks btn" onclick="openPage(event, 'spinoffs')">Spin-Offs</button>
-        <button class="tablinks btn" onclick="openPage(event, 'spinoffs')">Trailer</button>
-        <button class="tablinks btn" onclick="openPage(event, 'spinoffs')">Stars</button>
-        <button class="tablinks btn" onclick="openPage(event, 'spinoffs')">Gallery</button>
+        <button class="tablinks btn" onclick="openPage(event, 'trailer')">Trailer</button>
+        <button class="tablinks btn" onclick="openPage(event, 'stars')">Stars</button>
+        <button class="tablinks btn" onclick="openPage(event, 'gallery')">Gallery</button>
         <br>
     </div>
 
     <!-- Welcome -->
+    <div id="welcome" class="tabcontent">
+        <main id="welcome">
+            <div>
+                <h1>The Vampire Diaries</h1>
+                <h2>(Dear, Diary)</h2>
+            </div>
+        </main>
 
-    <main id="welcome">
-        <div>
-            <h1>The Vampire Diaries</h1>
-            <h2>(Dear, Diary)</h2>
-        </div>
-    </main>
+        <!-- ABOUT-->
+        <section id="about">
+            <p><span>Original Title: </span> The Vampire Diaries </p>
+            <p><span>Original Broadcaster: </span> The CW </p>
+            <p><span>First Episode: </span> 10th September 2009 </p>
+            <p><span>Final Episode: </span> 10th March 2017 </p>
+            <p><span>Year: </span> 2009-2017 </p>
+            <p><span>Spin-Offs: </span> The Originals, Legacies </p>
 
-    <!-- ABOUT-->
+            <div id="synopsis">
+                <h3>Synopsis</h3>
+                <p>Four months after the tragic car accident that killed her parents, 17-year-old Elena Gilbert and her
+                    15-year-old brother Jeremy are still learning how to deal with grief and move their lives forward.
+                    Elena
+                    has always been the "perfect girl": popular, beautiful, and full of friends. But now she must learn
+                    to
+                    hide her sadness from the world.
+                    <p>As the new school year begins, Elena and her classmates are fascinated by a mysterious and
+                        charming
+                        new classmate, Stefan Salvatore. Stefan and Elena immediately approach, unbeknownst to the girl
+                        that
+                        Stefan is a hundreds-year-old vampire, fighting for a peaceful life among humans, while his
+                        brother,
+                        Damon, is the embodiment of vampire violence and brutality.</p>
+                    <p>Now these two vampire brothers - one good, one bad - are at war for Elena's soul and the souls of
+                        her
+                        friends, family, and all the inhabitants of the small town of Mystic Falls.</p>
+                    <p>The series is based on LJ Smith's novels.</p>
+            </div>
 
-    <section id="about">
-        <p><span>Original Title: </span> The Vampire Diaries </p>
-        <p><span>Original Broadcaster: </span> The CW </p>
-        <p><span>First Episode: </span> 10th September 2009 </p>
-        <p><span>Final Episode: </span> 10th March 2017 </p>
-        <p><span>Year: </span> 2009-2017 </p>
-        <p><span>Spin-Offs: </span> The Originals, Legacies </p>
-
-        <div id="synopsis">
-            <h3>Synopsis</h3>
-            <p>Four months after the tragic car accident that killed her parents, 17-year-old Elena Gilbert and her
-                15-year-old brother Jeremy are still learning how to deal with grief and move their lives forward. Elena
-                has always been the "perfect girl": popular, beautiful, and full of friends. But now she must learn to
-                hide her sadness from the world.
-                <p>As the new school year begins, Elena and her classmates are fascinated by a mysterious and charming
-                    new classmate, Stefan Salvatore. Stefan and Elena immediately approach, unbeknownst to the girl that
-                    Stefan is a hundreds-year-old vampire, fighting for a peaceful life among humans, while his brother,
-                    Damon, is the embodiment of vampire violence and brutality.</p>
-                <p>Now these two vampire brothers - one good, one bad - are at war for Elena's soul and the souls of her
-                    friends, family, and all the inhabitants of the small town of Mystic Falls.</p>
-                <p>The series is based on LJ Smith's novels.</p>
-        </div>
-
-    </section>
+        </section>
+    </div>
 
     <div id="actors" class="tabcontent">
         <!-- Container for character page -->
@@ -77,7 +84,7 @@
         <h1>Main Characters</h1>
         <hr>
         <div class="contain">
-            <p class="desc d1"><img src='img/damon.gif' class='rem' alt="dam" />
+            <p class="desc d1"><img src='/src/img/damon.gif' class='rem' alt="dam" />
                 Damon Salvatore is one of the two main male protagonists of The Vampire Diaries. Damon was a
                 178-year-old vampire and distant descendant of Silas but now he's human, since his younger brother,
                 Stefan Salvatore, injected him with the cure. He was a major antagonist in the first part of Season One.
@@ -88,7 +95,7 @@
             </p>
         </div>
         <div class="contain">
-            <p class="desc"><img src='img/elena.gif' class='rem' alt="el" />
+            <p class="desc"><img src='/src/img/elena.gif' class='rem' alt="el" />
                 Elena had been stduggling to live a normal life ever since her adoptive parents, Miranda and Grayson
                 Gilbert, died in a car accident when she was seventeen years old. Her life also changed drastically as
                 she and her friends are caught up in the supernatural world that surrounds them and are forced to face
@@ -96,7 +103,7 @@
             </p>
         </div>
         <div class="contain">
-            <p class="desc"><img src='img/stefan.gif' class='rem' alt="stef" />
+            <p class="desc"><img src='/src/img/stefan.gif' class='rem' alt="stef" />
                 Stefan Salvatore was one of the two main male protagonists of The Vampire Diaries. Stefan was a
                 171-year-old cured vampire and the distant descendant and doppelgänger of Silas. Stefan was born and
                 raised in the supernatural town of Mystic Falls, Virginia and came of age during the time of the Civil
@@ -106,7 +113,7 @@
             </p>
         </div>
         <div class="contain">
-            <p class="desc"><img src='img/bonnie.gif' class='rem' alt="bon" />
+            <p class="desc"><img src='/src/img/bonnie.gif' class='rem' alt="bon" />
                 Bonnie Sheila Bennett is a very powerful witch and one of the main female characters of The Vampire
                 Diaries. Prior to its destduction, she was the Anchor to the Other Side and, until recently, a
                 supernatural huntdess. While she filled the role of counselor and confidante to all of her friends,
@@ -116,7 +123,7 @@
             </p>
         </div>
         <div class="contain">
-            <p class="desc"><img src='img/jeremy.gif' class='rem' alt="jer" />
+            <p class="desc"><img src='src/img/jeremy.gif' class='rem' alt="jer" />
                 Jeremy Gilbert is a former main character and a male protagonist on The Vampire Diaries. Jeremy is the
                 adoptive brother and biological cousin of Elena Gilbert, as well as a former medium, although this
                 status became defunct following the collapse of the Other Side. He is also a member of the Brotherhood
@@ -125,7 +132,7 @@
             </p>
         </div>
         <div class="contain">
-            <p class="desc"><img src='img/caroline.gif' class='rem' alt="car" />
+            <p class="desc"><img src='/src/img/caroline.gif' class='rem' alt="car" />
                 Caroline Elizabeth Forbes-Salvatore is a vampire and one of the main female characters on The Vampire
                 Diaries. Caroline is the daughter of William Forbes II and Sheriff Elizabeth Forbes, the wife of the
                 late Stefan Salvatore and the sister-in-law of Damon Salvatore and Elena Gilbert. She is also the
@@ -137,92 +144,95 @@
         <a href="#Top">Top</a>
 
         <!--Stars-->
-        <section id="stars">
-            <h3>Stars</h3>
+        <div id="stars" class="tabcontent">
+            <section id="stars">
+                <h3>Stars</h3>
 
-            <div id="container-stars">
-                <a id="ator1" href="./src/html/actor1.html" target="_self">
-                    <p>Ian Somerhalder</p>
-                </a>
-                <a id="ator2" href="./src/html/actor2.html" target="_self">
-                    <p>Nina Dobrev</p>
-                </a>
-                <a id="ator3" href="./src/html/actor3.html" target="_self">
-                    <p>Paul Wesley</p>
-                </a>
-            </div>
+                <div id="container-stars">
+                    <a id="ator1" href="./src/html/actor1.html" target="_self">
+                        <p>Ian Somerhalder</p>
+                    </a>
+                    <a id="ator2" href="./src/html/actor2.html" target="_self">
+                        <p>Nina Dobrev</p>
+                    </a>
+                    <a id="ator3" href="./src/html/actor3.html" target="_self">
+                        <p>Paul Wesley</p>
+                    </a>
+                </div>
 
-        </section>
+            </section>
+        </div>
 
         <!--MOVIE GALLERY-->
+        <div id="gallery" class="tabcontent">
+            <section id="gallery">
+                <h3>Gallery</h3>
+                <div id="container-gallery">
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTk2NzgzNzU0N15BMl5BanBnXkFtZTgwODk4MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item1"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTYxMzYyMDc5N15BMl5BanBnXkFtZTgwOTk4MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item2"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjM4NDgyNDIxNV5BMl5BanBnXkFtZTgwMTA5MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item3"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTU0NTMzMTM1NF5BMl5BanBnXkFtZTgwMzA5MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item4"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjk3NDk4MTE0NV5BMl5BanBnXkFtZTgwMDA5MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item5"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjI5MzAzMDc0M15BMl5BanBnXkFtZTgwNDA5MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item6"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjIxOTAzNTkwMl5BMl5BanBnXkFtZTgwMjA5MjI1MDI@._V1_.jpg"
+                        class="item-gallery" id="item7"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTUyNDI2NjY0NF5BMl5BanBnXkFtZTgwODU1MDk2NTE@._V1_.jpg"
+                        class="item-gallery" id="item8"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTAyODkzMDUxNTheQTJeQWpwZ15BbWU4MDk1OTMxNjUx._V1_.jpg"
+                        class="item-gallery" id="item9"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTkzMzk3ODE3N15BMl5BanBnXkFtZTgwMTY5MzE2NTE@._V1_.jpg"
+                        class="item-gallery" id="item10"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjEwMTAzNTY5OV5BMl5BanBnXkFtZTgwNDQ5MzE2NTE@._V1_.jpg"
+                        class="item-gallery" id="item11"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BNTIxNjY0Nzg4N15BMl5BanBnXkFtZTgwNzYwOTQyNTE@._V1_.jpg"
+                        class="item-gallery" id="item12"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BOTEyMjMxMTQ4OF5BMl5BanBnXkFtZTgwOTg0NDQ0NDE@._V1_.jpg"
+                        class="item-gallery" id="item13"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BOTEyODk3MTE0OV5BMl5BanBnXkFtZTgwODE4Njc1MzE@._V1_.jpg"
+                        class="item-gallery" id="item14"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTc0MTkyMTAzOF5BMl5BanBnXkFtZTgwMDE4Njc1MzE@._V1_.jpg"
+                        class="item-gallery" id="item15"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjI4OTk4OTMwNF5BMl5BanBnXkFtZTgwNTA4Njc1MzE@._V1_.jpg"
+                        class="item-gallery" id="item16"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BOTE5NDk2NDI3NF5BMl5BanBnXkFtZTgwMjg1NzM4MjE@._V1_.jpg"
+                        class="item-gallery" id="item17"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTc2NzM4OTQwM15BMl5BanBnXkFtZTgwNjkzNzM4MjE@._V1_.jpg"
+                        class="item-gallery" id="item18"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjE5NDA1MzE0MV5BMl5BanBnXkFtZTgwODAzOTIxMjE@._V1_SY1000_CR0,0,1464,1000_AL_.jpg"
+                        class="item-gallery" id="item19"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjE1NjYwMjk3NV5BMl5BanBnXkFtZTgwOTAyNjMwMjE@._V1_.jpg"
+                        class="item-gallery" id="item20"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjIwMTU1MDYzNF5BMl5BanBnXkFtZTgwMzAyNjMwMjE@._V1_.jpg"
+                        class="item-gallery" id="item21"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTQ4NjUwMTE2Nl5BMl5BanBnXkFtZTgwNTAyNjMwMjE@._V1_.jpg"
+                        class="item-gallery" id="item22"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BNjEyMTU0NzI3OF5BMl5BanBnXkFtZTgwNjAyNjMwMjE@._V1_.jpg"
+                        class="item-gallery" id="item23"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTEzNTEzNzk1NjheQTJeQWpwZ15BbWU4MDIwMjYzMDIx._V1_.jpg"
+                        class="item-gallery" id="item24"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjIzNTMzODMwOF5BMl5BanBnXkFtZTgwODk2ODk3MTE@._V1_.jpg"
+                        class="item-gallery" id="item25"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjAyMjI2NDE3MV5BMl5BanBnXkFtZTgwNTk2ODk3MTE@._V1_.jpg"
+                        class="item-gallery" id="item26"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMjA3NzUxMzgxOV5BMl5BanBnXkFtZTgwODk3NDQ3MTE@._V1_.jpg"
+                        class="item-gallery" id="item27"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMzMzNzIzMTM1Ml5BMl5BanBnXkFtZTgwMjExODg1MTE@._V1_.jpg"
+                        class="item-gallery" id="item28"></a>
+                    <a href="https://m.media-amazon.com/images/M/MV5BMTgwNzMzMzUyMl5BMl5BanBnXkFtZTgwNzE5MjcyMTE@._V1_.jpg"
+                        class="item-gallery" id="item29"></a>
+                    <a href="http://www.comboinfinito.com.br/principal/wp-content/uploads/2016/10/vampire-diares-setima-temporada-dvd.jpg"
+                        class="item-gallery" id="item30"></a>
 
-        <section id="gallery">
-            <h3>Gallery</h3>
-            <div id="container-gallery">
-                <a href="https://m.media-amazon.com/images/M/MV5BMTk2NzgzNzU0N15BMl5BanBnXkFtZTgwODk4MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item1"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTYxMzYyMDc5N15BMl5BanBnXkFtZTgwOTk4MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item2"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjM4NDgyNDIxNV5BMl5BanBnXkFtZTgwMTA5MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item3"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTU0NTMzMTM1NF5BMl5BanBnXkFtZTgwMzA5MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item4"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjk3NDk4MTE0NV5BMl5BanBnXkFtZTgwMDA5MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item5"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjI5MzAzMDc0M15BMl5BanBnXkFtZTgwNDA5MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item6"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjIxOTAzNTkwMl5BMl5BanBnXkFtZTgwMjA5MjI1MDI@._V1_.jpg"
-                    class="item-gallery" id="item7"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTUyNDI2NjY0NF5BMl5BanBnXkFtZTgwODU1MDk2NTE@._V1_.jpg"
-                    class="item-gallery" id="item8"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTAyODkzMDUxNTheQTJeQWpwZ15BbWU4MDk1OTMxNjUx._V1_.jpg"
-                    class="item-gallery" id="item9"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTkzMzk3ODE3N15BMl5BanBnXkFtZTgwMTY5MzE2NTE@._V1_.jpg"
-                    class="item-gallery" id="item10"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjEwMTAzNTY5OV5BMl5BanBnXkFtZTgwNDQ5MzE2NTE@._V1_.jpg"
-                    class="item-gallery" id="item11"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BNTIxNjY0Nzg4N15BMl5BanBnXkFtZTgwNzYwOTQyNTE@._V1_.jpg"
-                    class="item-gallery" id="item12"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BOTEyMjMxMTQ4OF5BMl5BanBnXkFtZTgwOTg0NDQ0NDE@._V1_.jpg"
-                    class="item-gallery" id="item13"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BOTEyODk3MTE0OV5BMl5BanBnXkFtZTgwODE4Njc1MzE@._V1_.jpg"
-                    class="item-gallery" id="item14"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTc0MTkyMTAzOF5BMl5BanBnXkFtZTgwMDE4Njc1MzE@._V1_.jpg"
-                    class="item-gallery" id="item15"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjI4OTk4OTMwNF5BMl5BanBnXkFtZTgwNTA4Njc1MzE@._V1_.jpg"
-                    class="item-gallery" id="item16"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BOTE5NDk2NDI3NF5BMl5BanBnXkFtZTgwMjg1NzM4MjE@._V1_.jpg"
-                    class="item-gallery" id="item17"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTc2NzM4OTQwM15BMl5BanBnXkFtZTgwNjkzNzM4MjE@._V1_.jpg"
-                    class="item-gallery" id="item18"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjE5NDA1MzE0MV5BMl5BanBnXkFtZTgwODAzOTIxMjE@._V1_SY1000_CR0,0,1464,1000_AL_.jpg"
-                    class="item-gallery" id="item19"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjE1NjYwMjk3NV5BMl5BanBnXkFtZTgwOTAyNjMwMjE@._V1_.jpg"
-                    class="item-gallery" id="item20"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjIwMTU1MDYzNF5BMl5BanBnXkFtZTgwMzAyNjMwMjE@._V1_.jpg"
-                    class="item-gallery" id="item21"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTQ4NjUwMTE2Nl5BMl5BanBnXkFtZTgwNTAyNjMwMjE@._V1_.jpg"
-                    class="item-gallery" id="item22"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BNjEyMTU0NzI3OF5BMl5BanBnXkFtZTgwNjAyNjMwMjE@._V1_.jpg"
-                    class="item-gallery" id="item23"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTEzNTEzNzk1NjheQTJeQWpwZ15BbWU4MDIwMjYzMDIx._V1_.jpg"
-                    class="item-gallery" id="item24"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjIzNTMzODMwOF5BMl5BanBnXkFtZTgwODk2ODk3MTE@._V1_.jpg"
-                    class="item-gallery" id="item25"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjAyMjI2NDE3MV5BMl5BanBnXkFtZTgwNTk2ODk3MTE@._V1_.jpg"
-                    class="item-gallery" id="item26"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMjA3NzUxMzgxOV5BMl5BanBnXkFtZTgwODk3NDQ3MTE@._V1_.jpg"
-                    class="item-gallery" id="item27"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMzMzNzIzMTM1Ml5BMl5BanBnXkFtZTgwMjExODg1MTE@._V1_.jpg"
-                    class="item-gallery" id="item28"></a>
-                <a href="https://m.media-amazon.com/images/M/MV5BMTgwNzMzMzUyMl5BMl5BanBnXkFtZTgwNzE5MjcyMTE@._V1_.jpg"
-                    class="item-gallery" id="item29"></a>
-                <a href="http://www.comboinfinito.com.br/principal/wp-content/uploads/2016/10/vampire-diares-setima-temporada-dvd.jpg"
-                    class="item-gallery" id="item30"></a>
+                </div>
 
-            </div>
-
-        </section>
+            </section>
+        </div>
 
         <div id="review" class="tabcontent">
             <!-- Container for review/summary for types of creatures page -->
@@ -328,7 +338,7 @@
             <br>
         </div>
 
-        <div id="summary" class="tabcontent" style="text-align:center;">
+        <div id="trailersummary" class="tabcontent" style="text-align:center;">
             <!-- Container for summary page -->
             <div class="plot">
                 <h2>TRAILER</h2>
