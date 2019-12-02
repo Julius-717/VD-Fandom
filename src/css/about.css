@@ -1,0 +1,26 @@
+#about{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+
+#about p span {
+    color: red;
+    font-weight: bold;
+}
+
+#about p{
+    margin-bottom: 20px;
+}
+
+
+#synopsis{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+#synopsis h3{
+    color: red;
+    margin-bottom: 20px;
+}

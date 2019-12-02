@@ -1,0 +1,159 @@
+#item1{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTk2NzgzNzU0N15BMl5BanBnXkFtZTgwODk4MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+#item2{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTkzMzk3ODE3N15BMl5BanBnXkFtZTgwMTY5MzE2NTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item3{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjM4NDgyNDIxNV5BMl5BanBnXkFtZTgwMTA5MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item4{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTAyODkzMDUxNTheQTJeQWpwZ15BbWU4MDk1OTMxNjUx._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item5{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjk3NDk4MTE0NV5BMl5BanBnXkFtZTgwMDA5MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item6{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjEwMTAzNTY5OV5BMl5BanBnXkFtZTgwNDQ5MzE2NTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item7{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTYxMzYyMDc5N15BMl5BanBnXkFtZTgwOTk4MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item8{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTUyNDI2NjY0NF5BMl5BanBnXkFtZTgwODU1MDk2NTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item9{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTU0NTMzMTM1NF5BMl5BanBnXkFtZTgwMzA5MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item10{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTc0MTkyMTAzOF5BMl5BanBnXkFtZTgwMDE4Njc1MzE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item11{
+    background-image: url( "https://m.media-amazon.com/images/M/MV5BMjI5MzAzMDc0M15BMl5BanBnXkFtZTgwNDA5MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item12{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNTIxNjY0Nzg4N15BMl5BanBnXkFtZTgwNzYwOTQyNTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item13{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTgwNzMzMzUyMl5BMl5BanBnXkFtZTgwNzE5MjcyMTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item14{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOTEyODk3MTE0OV5BMl5BanBnXkFtZTgwODE4Njc1MzE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item15{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjIxOTAzNTkwMl5BMl5BanBnXkFtZTgwMjA5MjI1MDI@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item16{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjI4OTk4OTMwNF5BMl5BanBnXkFtZTgwNTA4Njc1MzE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item17{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOTE5NDk2NDI3NF5BMl5BanBnXkFtZTgwMjg1NzM4MjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item18{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTc2NzM4OTQwM15BMl5BanBnXkFtZTgwNjkzNzM4MjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item19{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDM1OTM4NzMyN15BMl5BanBnXkFtZTgwMTg0MTU1MjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item20{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjE5NDA1MzE0MV5BMl5BanBnXkFtZTgwODAzOTIxMjE@._V1_SY1000_CR0,0,1464,1000_AL_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item21{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjE1NjYwMjk3NV5BMl5BanBnXkFtZTgwOTAyNjMwMjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item22{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjIwMTU1MDYzNF5BMl5BanBnXkFtZTgwMzAyNjMwMjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item23{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTQ4NjUwMTE2Nl5BMl5BanBnXkFtZTgwNTAyNjMwMjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item24{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNjEyMTU0NzI3OF5BMl5BanBnXkFtZTgwNjAyNjMwMjE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item25{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTEzNTEzNzk1NjheQTJeQWpwZ15BbWU4MDIwMjYzMDIx._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item26{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjIzNTMzODMwOF5BMl5BanBnXkFtZTgwODk2ODk3MTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item27{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjAyMjI2NDE3MV5BMl5BanBnXkFtZTgwNTk2ODk3MTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item28{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjA3NzUxMzgxOV5BMl5BanBnXkFtZTgwODk3NDQ3MTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item29{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzMzNzIzMTM1Ml5BMl5BanBnXkFtZTgwMjExODg1MTE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item30{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOTEyMjMxMTQ4OF5BMl5BanBnXkFtZTgwOTg0NDQ0NDE@._V1_.jpg");
+    grid-row: span 3;
+    grid-column: span 2;
+}
+#item31{
+    background-image: url("http://www.comboinfinito.com.br/principal/wp-content/uploads/2016/10/vampire-diares-setima-temporada-dvd.jpg");
+    grid-row: 6 / span 5;
+    grid-column: 4 / span 6;
+}
+
+
+      
