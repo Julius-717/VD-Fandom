@@ -38,17 +38,17 @@
 }
 
 #actor1 {
-    background-image: url("https://extra.globo.com/incoming/12721217-169-aa1/w448h673-PROP/xian-somerhalder-1.jpg.pagespeed.ic.Sr5KSTp8wy.jpg");
+    background-image: url("../img/damon.gif");
     background-position-x: -280px;
 }
 
 #actor2 {
-    background-image: url("https://images2.alphacoders.com/599/599299.jpg");
+    background-image: url("../img/elena.gif");
     background-position-x: -200px;
 }
 
 #actor3 {
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNjc2MTNiNjItYzJmZS00MWVhLThhYzQtMjJhMTA0NGQ0ZThjXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_SY1000_SX690_AL_.jpg");
+    background-image: url("../img/stefan.gif");
     background-position-x: -300px;
 
 }
